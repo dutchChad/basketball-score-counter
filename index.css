@@ -1,0 +1,89 @@
+@font-face {
+ font-family: customfont;
+ src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    background: url(BG1.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.home-section{
+
+}
+h3{
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30%;
+    background: linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 47%);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid orangered;
+    border-radius:10px;
+    text-align: center;
+    
+}
+.score-view{
+
+    Width: 150px;
+    height: 100px;
+    background: black; 
+    margin: 30px;   
+}
+#home-score{
+    font-family: customfont;
+    font-size: 5rem;
+    color: red;
+    padding-top: 10px
+}
+#guest-score{
+    font-family: customfont;
+    font-size: 5rem;
+    color: red;
+    padding-top: 10px
+}
+.btn-row{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 10px;
+}
+.score-btn{
+    border:1px solid orangered;
+    border-radius: 10px;
+    background: transparent;
+    width: 50px;
+    height: 40px;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px black;
+}
+.score-btn:hover{
+    border:2px solid orangered;
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+.reset-btn{
+   height: 50px;
+   width: 100px;
+   margin: auto 10px;
+   border: 2px solid orangered;
+   border-radius: 10px;
+   background: orangered;
+   font-weight: 600;
+   
+}
+.reset-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 6px black;
+    transition: .5s all ease-in-out;
+    
+}
