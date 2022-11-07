@@ -1,45 +1,45 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        
-    </head>
-    <body>
-        <div class="container">
-            
-        <!-- Home score section ------------>
-        
-            <div class="home-section">
-                <h3>HOME</h3>
-                <div class="score-view">
-                    <p id="home-score"></p>
-                    </div>
-                     <div class="btn-row">
-                        <button class="score-btn" onclick="onePointHome()">+1</button>
-                        <button class="score-btn" onclick="twoPointHome()">+2</button>
-                        <button class="score-btn" onclick="threePointHome()">+3</button>
-                    </div>
-            </div>
-            
-            <!-- Reset Button ------------->
-            <button class="reset-btn" onclick="reset()">RESET</button>
-            
-            <!-- Guest score section------- -->
-            
-            <div class="guest-section">
-                <h3>GUEST</h3>
-                <div class="score-view">
-                    <p id="guest-score"></p>
-                    </div>
-                    <div class="btn-row">
-                        <button class="score-btn" onclick="onePointGuest()">+1</button>
-                        <button class="score-btn" onclick="twoPointGuest()">+2</button>
-                        <button class="score-btn" onclick="threePointGuest()">+3</button>
-                    
-                </div>
-            </div>
-            
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Home score section ------------>
+
+      <div class="home-section">
+        <h3>HOME</h3>
+        <div class="score-view">
+          <p id="home-score"></p>
         </div>
-        
-        <script src="index.js"></script>
-    </body>
+        <div class="btn-row">
+          <button class="score-btn" onclick="onePointHome()">+1</button>
+          <button class="score-btn" onclick="twoPointHome()">+2</button>
+          <button class="score-btn" onclick="threePointHome()">+3</button>
+        </div>
+      </div>
+
+      <!-- Reset Button ------------->
+      <button class="reset-btn" onclick="reset()">RESET</button>
+
+      <!-- Guest score section------- -->
+
+      <div class="guest-section">
+        <h3>AWAY</h3>
+        <div class="score-view">
+          <p id="guest-score"></p>
+        </div>
+        <div class="btn-row">
+          <button class="score-btn" onclick="onePointGuest()">+1</button>
+          <button class="score-btn" onclick="twoPointGuest()">+2</button>
+          <button class="score-btn" onclick="threePointGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
